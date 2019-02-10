@@ -4,3 +4,11 @@
     <time-countdown :date="1551366000" /> //date must be send as a Unix timestamp
   </div>
 </template>
+
+<script>
+import TimeCountdown from '../elements/TimeCountdown';
+
+export default {
+  components: { TimeCountdown },
+};
+</script>
